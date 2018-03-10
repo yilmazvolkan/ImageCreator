@@ -6,20 +6,16 @@ Image Creation app on Python via GAN
 <img src="https://github.com/yilmazvolkan/ImageCreator/blob/master/Res/ai_art_logo.png" width="250" height="250"></a>
 </p>
 <p align="center">
-    <a href="https://github.com/yilmazvolkan/FaceDetector/blob/master/README.md">
-        <img src="https://img.shields.io/badge/DESCRIPTION-ONLINE-c2bc8c.svg"
+    <a href="https://github.com/yilmazvolkan/ImageCreator/blob/master/README.md">
+        <img src="https://img.shields.io/badge/DESCRIPTION-ONLINE-fb6a61.svg"
              alt="Description">
     </a>
-    <a href="https://github.com/yilmazvolkan/FaceDetector/blob/master/Res/face_recognition.py">
-        <img src="https://img.shields.io/badge/Python-ONLINE-b1a86a.svg"
+    <a href="https://github.com/yilmazvolkan/ImageCreator/blob/master/Res/image_creator.py">
+        <img src="https://img.shields.io/badge/Python-ONLINE-fa3b30.svg"
              alt="Python">
     </a>
-    <a href="https://github.com/opencv/opencv/tree/master/data/haarcascades">
-        <img src="https://img.shields.io/badge/HaarCascade-Link-988f50.svg"
-             alt="HaarCascade">
-    </a>
-    <a href="https://github.com/yilmazvolkan/FaceDetector/issues?q=is%3Aissue+is%3Aclosed">
-        <img src="https://img.shields.io/badge/ISSUES 3-CLOSED-827a44.svg"
+    <a href="https://github.com/yilmazvolkan/ImageCreator/issues">
+        <img src="https://img.shields.io/badge/ISSUES 3-CLOSED-f11306.svg"
              alt="Issues">
     </a>
 </p>
@@ -43,6 +39,12 @@ For the second time, discriminator takes new generated images as input without r
 
 
 These processes can be implemented on Python with the help of nn.Module class. We can simply implement generator and discriminator one by one and update weights according to resulting error. As an input we can give an image consists of small images. The training and creation of images takes approximately a day and at the end of each epoch we get an output image. At the beginning of process, these images are not seem to like anything since the training is not completed enough. However, while the program is running, we can see coming more relevant images. We can see the result below;
+
+<p align="center">
+<a href = "https://github.com/yilmazvolkan/FaceDetector/blob/master/Res/integral_image_calc.png"><img 
+<img src="https://github.com/yilmazvolkan/FaceDetector/blob/master/Res/integral_image_calc.png" width="350" height="210"></a>
+</p>
+
 
 The results show us the algorithm learns how to use pixels and creates good images rather than some blur and ambiguous images.
 
