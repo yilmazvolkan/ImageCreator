@@ -50,10 +50,11 @@ The results show us the algorithm learns how to use pixels and creates good imag
 
 ## :blue_book: Readings
 
-You can reach more information about object detection using a boosted cascade of simple features article by clicking on this [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf).
+A good article about how GANs simply work by clicking on this [link](https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1).
 
-Another good article about boosting image retrieval is accesible by clicking on this [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.2419&rep=rep1&type=pdf).
+You can reach more information about Generative Adversarial Nets and algorithms behind by clicking on this [link](https://arxiv.org/pdf/1406.2661.pdf).
 
+Another good article about Adaptive Deconvolutional Network is on this [link](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.7393&rep=rep1&type=pdf).
 
 ## :beers: Contributers
 
