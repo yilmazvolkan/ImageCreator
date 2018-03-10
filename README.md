@@ -41,8 +41,8 @@ For the second time, discriminator takes new generated images as input without r
 These processes can be implemented on Python with the help of nn.Module class. We can simply implement generator and discriminator one by one and update weights according to resulting error. As an input we can give an image consists of small images. The training and creation of images takes approximately a day and at the end of each epoch we get an output image. At the beginning of process, these images are not seem to like anything since the training is not completed enough. However, while the program is running, we can see coming more relevant images. We can see the result below;
 
 <p align="center">
-<a href = "https://github.com/yilmazvolkan/FaceDetector/blob/master/Res/integral_image_calc.png"><img 
-<img src="https://github.com/yilmazvolkan/FaceDetector/blob/master/Res/integral_image_calc.png" width="350" height="210"></a>
+<a href = "https://github.com/yilmazvolkan/ImageCreator/blob/master/Res/readme_results.png"><img 
+<img src="https://github.com/yilmazvolkan/ImageCreator/blob/master/Res/readme_results.png" width="500" height="300"></a>
 </p>
 
 
